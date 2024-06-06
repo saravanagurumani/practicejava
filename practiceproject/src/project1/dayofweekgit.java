@@ -22,7 +22,7 @@ public class dayofweekgit {
 				
 	}
 	
-	 public static boolean isweekend(DayOfWeek ans) {
+	 private static boolean isweekend(DayOfWeek ans) {
 		 return ans == DayOfWeek.SATURDAY || ans == DayOfWeek.SUNDAY;
 	 }
 	 
